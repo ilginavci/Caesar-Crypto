@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
 	int number; // textlenght
 	number = strlen(uncryptedText); //textlenght
 	int key=2; // key , 2 is standart key. , if you want to decrypt a text, write (-)2 .
-	char alphabet[100]="abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"; // from 0 up to 25, alphabet
+	char alphabet[100]="abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"; // from 0 up to 25, alphabet. I write 2 times because if your key is 5 and your text contain X character, the program will do y- z - a - b - (c).
     char encrpytedText[number];
 	int i=0;
 	int c=number;
